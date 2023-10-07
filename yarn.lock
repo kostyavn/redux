@@ -285,7 +285,7 @@
   resolved "https://registry.yarnpkg.com/@swc/types/-/types-0.1.5.tgz#043b731d4f56a79b4897a3de1af35e75d56bc63a"
   integrity sha512-myfUej5naTBWnqOCc/MdVOLVjXUXtIA+NpDrDBKJtLLg2shUjBu3cZmB/85RyitKc55+lUUyl7oRfLOvkr2hsw==
 
-"@types/hoist-non-react-statics@^3.3.1":
+"@types/hoist-non-react-statics@^3.3.0", "@types/hoist-non-react-statics@^3.3.1":
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/@types/hoist-non-react-statics/-/hoist-non-react-statics-3.3.2.tgz#dc1e9ded53375d37603c479cc12c693b0878aa2a"
   integrity sha512-YIQtIg4PKr7ZyqNPZObpxfHsHEmuB8dXCxd6qVcGuQVDK2bpsF7bYNnBJ4Nn7giuACZg+WewExgrtAJ3XnA4Xw==
@@ -309,6 +309,16 @@
   integrity sha512-zq6Dy0EiCuF9pWFW6I6k6W2LdpUixLE4P6XjXU1QHLfak3GPACQfLwEuHzY5pOYa4hzj1d0GxX/P141aFjZsyg==
   dependencies:
     "@types/react" "*"
+
+"@types/react-redux@^7.1.27":
+  version "7.1.27"
+  resolved "https://registry.yarnpkg.com/@types/react-redux/-/react-redux-7.1.27.tgz#1afb31f7354bf787e162c10ff3fa19bafa9e6b57"
+  integrity sha512-xj7d9z32p1K/eBmO+OEy+qfaWXtcPlN8f1Xk3Ne0p/ZRQ867RI5bQ/bpBtxbqU1AHNhKJSgGvld/P2myU2uYkg==
+  dependencies:
+    "@types/hoist-non-react-statics" "^3.3.0"
+    "@types/react" "*"
+    hoist-non-react-statics "^3.3.0"
+    redux "^4.0.0"
 
 "@types/react@*", "@types/react@^18.2.15":
   version "18.2.25"
@@ -1133,7 +1143,7 @@ redux-thunk@^2.4.2:
   resolved "https://registry.yarnpkg.com/redux-thunk/-/redux-thunk-2.4.2.tgz#b9d05d11994b99f7a91ea223e8b04cf0afa5ef3b"
   integrity sha512-+P3TjtnP0k/FEjcBL5FZpoovtvrTNT/UXd4/sluaSyrURlSlhLSzEdfsTBW7WsKB6yPvgd7q/iZPICFjW4o57Q==
 
-redux@^4.2.1:
+redux@^4.0.0, redux@^4.2.1:
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/redux/-/redux-4.2.1.tgz#c08f4306826c49b5e9dc901dee0452ea8fce6197"
   integrity sha512-LAUYz4lc+Do8/g7aeRa8JkyDErK6ekstQaqWQrNRW//MY1TvCEpMtpTWvlQ+FPbWCx+Xixu/6SHt5N0HR+SB4w==
